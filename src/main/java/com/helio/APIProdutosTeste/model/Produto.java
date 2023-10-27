@@ -15,6 +15,9 @@ public class Produto {
     private float preco;
     private int quantidade;
 
+    @OneToOne
+    private Categoria categoria;
+
     public Produto(String nome, String descricao, float preco, int quantidade) {
         this.nome = nome;
         this.descricao = descricao;

@@ -16,7 +16,7 @@ public class ApiProdutosTesteApplication {
 		SpringApplication.run(ApiProdutosTesteApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	CommandLineRunner commandLineRunner(ProdutoRepository produtoRepository) {
 		return args -> {
 			produtoRepository.saveAll(List.of(
@@ -26,5 +26,5 @@ public class ApiProdutosTesteApplication {
 					new Produto("prego", "serve pra pregar coisas", 0.1f, 543)
 			));
 		};
-	}
+	}*/
 }
